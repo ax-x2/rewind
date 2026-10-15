@@ -1,0 +1,188 @@
+{
+  "blockTime": 1783945530,
+  "meta": {
+    "computeUnitsConsumed": 2970,
+    "costUnits": 5637,
+    "err": null,
+    "fee": 10000,
+    "innerInstructions": [
+      {
+        "index": 1,
+        "instructions": [
+          {
+            "parsed": {
+              "info": {
+                "lamports": 101094000,
+                "newAccount": "A1MgznMuhvjc3izydb4NU8juGyMQKb1mpgLUHeCDZuDD",
+                "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+                "source": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+                "space": 14397
+              },
+              "type": "createAccount"
+            },
+            "program": "system",
+            "programId": "11111111111111111111111111111111",
+            "stackHeight": 2
+          }
+        ]
+      }
+    ],
+    "logMessages": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Deployed program 31fGaME7XZQsCncCjtTN2CckuSmpqDQChoUfr2X1jGXR",
+      "Program BPFLoaderUpgradeab1e11111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ],
+    "postBalances": [
+      1897669560,
+      1141440,
+      0,
+      101094000,
+      1,
+      1,
+      1,
+      1169280,
+      1009200
+    ],
+    "postTokenBalances": [],
+    "preBalances": [
+      1898821000,
+      0,
+      101094000,
+      0,
+      1,
+      1,
+      1,
+      1169280,
+      1009200
+    ],
+    "preTokenBalances": [],
+    "rewards": [],
+    "status": {
+      "Ok": null
+    }
+  },
+  "slot": 432642980,
+  "transaction": {
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+          "signer": true,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "31fGaME7XZQsCncCjtTN2CckuSmpqDQChoUfr2X1jGXR",
+          "signer": true,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "nV7SuKrugaoPpwMdkjRa6bpLB4zhGT2qtCoAVFGK1HH",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "A1MgznMuhvjc3izydb4NU8juGyMQKb1mpgLUHeCDZuDD",
+          "signer": false,
+          "source": "transaction",
+          "writable": true
+        },
+        {
+          "pubkey": "11111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "BPFLoaderUpgradeab1e11111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "ComputeBudget111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "SysvarC1ock11111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        },
+        {
+          "pubkey": "SysvarRent111111111111111111111111111111111",
+          "signer": false,
+          "source": "transaction",
+          "writable": false
+        }
+      ],
+      "instructions": [
+        {
+          "parsed": {
+            "info": {
+              "lamports": 1141440,
+              "newAccount": "31fGaME7XZQsCncCjtTN2CckuSmpqDQChoUfr2X1jGXR",
+              "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+              "source": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+              "space": 36
+            },
+            "type": "createAccount"
+          },
+          "program": "system",
+          "programId": "11111111111111111111111111111111",
+          "stackHeight": 1
+        },
+        {
+          "parsed": {
+            "info": {
+              "authority": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+              "bufferAccount": "nV7SuKrugaoPpwMdkjRa6bpLB4zhGT2qtCoAVFGK1HH",
+              "clockSysvar": "SysvarC1ock11111111111111111111111111111111",
+              "maxDataLen": 14352,
+              "payerAccount": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+              "programAccount": "31fGaME7XZQsCncCjtTN2CckuSmpqDQChoUfr2X1jGXR",
+              "programDataAccount": "A1MgznMuhvjc3izydb4NU8juGyMQKb1mpgLUHeCDZuDD",
+              "rentSysvar": "SysvarRent111111111111111111111111111111111",
+              "systemProgram": "11111111111111111111111111111111"
+            },
+            "type": "deployWithMaxDataLen"
+          },
+          "program": "bpf-upgradeable-loader",
+          "programId": "BPFLoaderUpgradeab1e11111111111111111111111",
+          "stackHeight": 1
+        },
+        {
+          "accounts": [],
+          "data": "3DTZbgwsozUF",
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "stackHeight": 1
+        },
+        {
+          "accounts": [],
+          "data": "J2SSyu",
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "stackHeight": 1
+        }
+      ],
+      "recentBlockhash": "9Vwfrn8jvucRoHAHXLFNAXF2Hs1fjGoXoHrha3uppCvT"
+    },
+    "signatures": [
+      "Lr3yeg9jEw3hCJmyMxfnwbd8GGiKtkdGURAFkoZ86THo1UdPXum9wpaXUDJqHkEH1xRXpLszZH3YpTGCNF2o1Kp",
+      "bHW24BkhzeAQwZwsVTtmZqzz8SWB77eD3A6d3g8QTzH9L9dUQCpK6ZLGq93yDaKWF3Q33T5NHXxe1XaVU9Cxqn9"
+    ]
+  },
+  "transactionIndex": 1294,
+  "version": "legacy"
+}

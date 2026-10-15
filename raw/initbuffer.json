@@ -1,0 +1,125 @@
+{
+  "transaction": {
+    "signatures": [
+      "fNhYEjYb2pkoKuujn4hRd5FPEDMkeGc2S6eovbb9TdDnY3xTPNraRBTY9LMPdW36UCQCGqR5zf9U4UTN3C94PEe",
+      "2UaL8F78yAv9HK9amjq3hvM75cHvrKfatwLCSvNQ1eWZY5MuyTaGRWVUy12kQKbkSLam9wZDfBiXgFDQrS8vM7f8"
+    ],
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+          "writable": true,
+          "signer": true,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "nV7SuKrugaoPpwMdkjRa6bpLB4zhGT2qtCoAVFGK1HH",
+          "writable": true,
+          "signer": true,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "11111111111111111111111111111111",
+          "writable": false,
+          "signer": false,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "BPFLoaderUpgradeab1e11111111111111111111111",
+          "writable": false,
+          "signer": false,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "ComputeBudget111111111111111111111111111111",
+          "writable": false,
+          "signer": false,
+          "source": "transaction"
+        }
+      ],
+      "recentBlockhash": "2f9igL2osna8YmxbrorvHuEGS88Fdcy4MPfVYtPoaKMW",
+      "instructions": [
+        {
+          "program": "system",
+          "programId": "11111111111111111111111111111111",
+          "parsed": {
+            "info": {
+              "lamports": 101094000,
+              "newAccount": "nV7SuKrugaoPpwMdkjRa6bpLB4zhGT2qtCoAVFGK1HH",
+              "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+              "source": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9",
+              "space": 14389
+            },
+            "type": "createAccount"
+          },
+          "stackHeight": 1
+        },
+        {
+          "program": "bpf-upgradeable-loader",
+          "programId": "BPFLoaderUpgradeab1e11111111111111111111111",
+          "parsed": {
+            "info": {
+              "account": "nV7SuKrugaoPpwMdkjRa6bpLB4zhGT2qtCoAVFGK1HH",
+              "authority": "HWLAWoYXBuLGAyZYy4LtEa54mo4gyUjRyL3FXytoW8i9"
+            },
+            "type": "initializeBuffer"
+          },
+          "stackHeight": 1
+        },
+        {
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "accounts": [],
+          "data": "3DTZbgwsozUF",
+          "stackHeight": 1
+        },
+        {
+          "programId": "ComputeBudget111111111111111111111111111111",
+          "accounts": [],
+          "data": "EC4JiB",
+          "stackHeight": 1
+        }
+      ]
+    }
+  },
+  "meta": {
+    "err": null,
+    "status": {
+      "Ok": null
+    },
+    "fee": 10000,
+    "preBalances": [
+      2000000000,
+      0,
+      1,
+      1,
+      1
+    ],
+    "postBalances": [
+      1898896000,
+      101094000,
+      1,
+      1,
+      1
+    ],
+    "innerInstructions": [],
+    "logMessages": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]",
+      "Program BPFLoaderUpgradeab1e11111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": [],
+    "rewards": [],
+    "computeUnitsConsumed": 2820,
+    "costUnits": 4885
+  },
+  "version": "legacy",
+  "slot": 432642976,
+  "transactionIndex": 876,
+  "blockTime": 1783945529
+}
